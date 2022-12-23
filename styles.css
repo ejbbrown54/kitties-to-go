@@ -3,7 +3,7 @@
 }
 body {
   display: block;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif
 }
 header {
   background-color: steelblue;
@@ -12,7 +12,6 @@ h1 {
   font-size: 3rem;
   color: white;
   font-weight: bold;
-  text-transform: uppercase;
   padding-top: 1em;
   padding-left: 4em;
   padding-bottom: .5rem;
@@ -25,18 +24,19 @@ h2 {
   position: relative;
   top: -2rem;
 }
-nav {
+#header-nav {
   background-color: lightgray;
+  margin-bottom: 3rem;
 }
-ul {
+#header-nav ul {
   list-style-type: none;
   padding-left: 12rem;
   overflow: hidden;
 }
-li {
+#header-nav li {
   float: left;
 }
-li a {
+#header-nav li a {
   display: block;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -44,4 +44,39 @@ li a {
   text-decoration: none;
   color: black;
   font-weight: bold;
+}
+#main-content {
+  padding-left: 12rem;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.blockquote {
+  font-size: 1.2em;
+  margin-left: 0em;
+}
+.blockquote-text {
+  padding-top: 2em;
+}
+.blockquote-author {
+  font-weight: bold;
+  font-style: italic;
+  padding-bottom: 2em;
+}
+.blockquote-author::before {
+  content: "\2014\0020"
+}
+aside {
+  float: right;
+  width: 32rem;
+  padding: 0rem 12rem 2rem 5rem;
+}
+img[src="sidebar-cat.jpg"] {
+  width: 100%;
+}
+.no-top-margin {
+  margin-top: 0rem;
+}
+footer {
+  clear: right;
 }
