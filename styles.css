@@ -2,63 +2,46 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Arial, sans-serif;
-  font-size: .80em;
-}
-body a {
-  text-decoration: none;
-  color: steelblue;
-}
-aside {
-  float: right;
-  width: 30%;
-  padding-top: 1em;
-  padding-bottom: 2em;
-  padding-right: 7em;
-}
-.black-bold a {
-  font-weight: bold;
-  color: black;
-}
-.white-bold a {
-  font-weight: bold;
-  color: white;
-}
-main {
-  width: 75%;
-  padding-top: 1em;
-  padding-left: 11em;
-  padding-right: 7em;
-}
-footer {
-  clear: right;
-  background-color: gray;
-  text-align: center;
-  color: white;
-  font-size: 85%;
-}
-#logo {
-  width: 25%;
-}
-.clearfix::after {
-  content: "";
   display: block;
-  clear: both;
+  font-family: Helvetica, Arial, sans-serif;
 }
-.banner {
-  width: 100%;
+header {
+  background-color: steelblue;
 }
-img[src="sidebar-cat.jpg"] {
-  width: 100%;
+h1 {
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 1em;
+  padding-left: 4em;
+  padding-bottom: .5rem;
 }
-#jeremy-quote {
-  margin-top: 2.5em;
-  margin-bottom: 2.5em;
-  font-size: 1.4em;
-}
-#jeremy-sig {
+h2 {
+  color: white;
+  font-weight: normal;
   font-style: italic;
+  padding-left: 8em;
+  position: relative;
+  top: -2rem;
 }
-.standout {
-  color: steelblue;
+nav {
+  background-color: lightgray;
+}
+ul {
+  list-style-type: none;
+  padding-left: 12rem;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: .7rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
