@@ -88,13 +88,44 @@ img[src="images/sidebar-cat.jpg"] {
 .no-top-margin {
   margin-top: 0rem;
 }
+.top-margin {
+  margin-top: 4.5em;
+}
 .left-right-padding {
   padding-left: 12rem;
   padding-right: 12rem;
 }
+.right-align {
+  text-align: right;
+}
+#resize-lft {
+  border: 1px solid #0099cc;
+  width: 12em;
+  float: left;
+  margin-bottom: 2em;
+  margin-right: 2em;
+}
+#resize-rt {
+  border: 1px solid #0099cc;
+  width: 12em;
+  float: right;
+  margin-bottom: 2em;
+  margin-left: 2em;
+}
+.clear {
+  clear: both;
+}
 ol {
   font-size: 1.4em;
+/*  color: #0099cc; */
+}
+.blue-txt {
   color: #0099cc;
+}
+h4 {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 2em;
 }
 footer {
   clear: right;
