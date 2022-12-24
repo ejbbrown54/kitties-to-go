@@ -3,26 +3,35 @@
 }
 body {
   display: block;
-  font-family: Helvetica, Arial, sans-serif
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: .8rem;
 }
 header {
-  background-color: steelblue;
+  background-color: #0099cc;
+}
+a {
+  color: #0099cc;
+  text-decoration: none;
 }
 h1 {
   font-size: 3rem;
-  color: white;
   font-weight: bold;
   padding-top: 1em;
   padding-left: 4em;
   padding-bottom: .5rem;
 }
 h2 {
-  color: white;
   font-weight: normal;
   font-style: italic;
-  padding-left: 8em;
+  padding-left: 10em;
   position: relative;
   top: -2rem;
+}
+section p, figcaption {
+  line-height: 1.5rem;
+}
+.white-text {
+  color: white;
 }
 #header-nav {
   background-color: lightgray;
@@ -52,11 +61,13 @@ h2 {
   text-transform: uppercase;
 }
 .blockquote {
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin-left: 0em;
+  color: #0099cc;
 }
 .blockquote-text {
   padding-top: 2em;
+  line-height: 1.5em;
 }
 .blockquote-author {
   font-weight: bold;
@@ -79,4 +90,19 @@ img[src="sidebar-cat.jpg"] {
 }
 footer {
   clear: right;
+  background-color: #343636;
+  margin-top: 4rem;
+  padding: 3rem;
+  text-align: center;
+  font-weight: lighter;
+}
+figcaption {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+nav a {
+  color: white;
+}
+#copyright {
+  padding-top: 2em;
 }
