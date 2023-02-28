@@ -30,6 +30,30 @@ h2 {
 section p, figcaption {
   line-height: 1.5rem;
 }
+
+.hide {
+  display: none;
+}
+
+.hidden {
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+
+.hidden:focus {
+  left: 0;
+}
+
+.sr-only {
+position: absolute;
+left: -10000px;
+top: auto;
+width: 1px;
+height: 1px;
+overflow: hidden;
+}
+
 .white-text {
   color: white;
 }
@@ -54,7 +78,7 @@ section p, figcaption {
   color: black;
   font-weight: bold;
 }
-#main-content {
+.main-content {
   padding-left: 12rem;
 }
 .uppercase {
